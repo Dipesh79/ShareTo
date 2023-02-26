@@ -1,0 +1,11 @@
+body {
+    width: 225px;
+    height: 225px;
+    overflow: hidden;
+ }
+a{
+    text-decoration: none;
+}
+ul{
+    overflow: scroll;
+}
