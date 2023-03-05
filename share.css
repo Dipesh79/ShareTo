@@ -35,13 +35,11 @@
     .auth-bucket{
         width: 400px;
         height: 800px;
-        overflow-x: hidden;
         background: linear-gradient(#343a3f, #181a1d);
         box-shadow: 0 8px 18px 0 rgb(0 0 0 / 70%);
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow-y: scroll;
     }
     .form-title{
         font-size: 30px;

@@ -4,7 +4,7 @@
     "description": "Base Level Extension",
     "version": "1.0",
     "action": {
-        "default_popup": "share.html",
+        "default_popup": "shareto.html",
         "default_icon": "shareto.png"
     },
     "permissions": [
