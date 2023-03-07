@@ -153,6 +153,12 @@ a {
 }
 
 /* Img CSS */
+a, u {
+  text-decoration: none !important;
+}
+a, u :hover {
+  /* text-decoration: none !important; */
+}
 .iconcss {
   fill: white;
   height: 30px;
@@ -202,6 +208,6 @@ a {
 .sky :hover {
   fill: #00aff0;
 }
-.qqz :hover{
-  fill: #000000; 
+.qqz :hover {
+  fill: #000000;
 }
