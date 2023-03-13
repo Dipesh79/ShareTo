@@ -13,7 +13,6 @@ chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
   let trelloLink = "https://trello.com/add-card?mode=popup&url="+url+"&desc=";
   let messengerLink = "https://www.facebook.com/dialog/send?link="+url;
   let skypeLink = "https://web.skype.com/share?url="+url;
-  let qqLink = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+url;
   document.getElementById("facebook").setAttribute("href",facebookLink);
   document.getElementById("twitter").setAttribute("href",twitterLink);
   document.getElementById("pinterest").setAttribute("href",pinterestLink);
@@ -27,7 +26,6 @@ chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
   document.getElementById("trello").setAttribute("href",trelloLink);
   document.getElementById("messenger").setAttribute("href",messengerLink);
   document.getElementById("skype").setAttribute("href",skypeLink);
-  document.getElementById("qq").setAttribute("href",qqLink);
 });
 
 
